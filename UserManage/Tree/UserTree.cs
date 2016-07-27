@@ -15,20 +15,22 @@ namespace UserManage.Tree
         protected override void CreateRootNode(ref XmlTreeNode rootNode)
         {
             rootNode.NodeID = System.Guid.NewGuid().ToString();
-            rootNode.Action = "javascript:CreateUserTree()";
+            rootNode.Action = "javascript:CreateUser()";
             rootNode.Menu.Clear();
             rootNode.Menu.Add(ActionRefresh.Instance);
             rootNode.Icon = "/App_Plugins/FileManage/Images/folder.ico";
             rootNode.OpenIcon = "/App_Plugins/FileManage/Images/folder.ico";
+
         }
-
-
+        public override void Render(ref XmlTree tree)
+        {
+        }
 
         public override void RenderJS(ref System.Text.StringBuilder Javascript)
         {
             Javascript.Append(@"function CreateUser(){
-UmbClientMgr.contentFrame('../APP_Plugins/UserMangae/User.aspx');
-}");
+                    UmbClientMgr.contentFrame('../App_Plugins/UserManage/User.aspx');
+            }");
         }
 
     }
