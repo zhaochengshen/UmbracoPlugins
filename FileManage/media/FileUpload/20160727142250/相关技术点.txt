@@ -1,0 +1,26 @@
+
+
+ASP.ENT
+=============
+
+ASP.NET MVC 、分布式缓存、网站性能调优技术。WCF
+MFC开发，LINQ语法、Entity Framework、
+
+SignalR   Nhibernate 等orm框架  memcache/Redis缓存
+
+
+数据采集、监控软件开发。 
+
+负载均衡
+web service 接口开发  
+
+html5 jquery css3
+
+
+
+
+
+数据库
+==================
+sqlserver  oracle   mongoDB  REDIS等  no-sql数据库
+

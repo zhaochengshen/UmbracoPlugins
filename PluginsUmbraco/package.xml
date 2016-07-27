@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>PluginsUmbraco.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>PluginsUmbraco.dll</orgName>
+    </file>
+    <file>
+      <guid>ExportToWord.html</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco</orgPath>
+      <orgName>ExportToWord.html</orgName>
+    </file>
+    <file>
+      <guid>index.html</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco/Content</orgPath>
+      <orgName>index.html</orgName>
+    </file>
+    <file>
+      <guid>index.html</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco/Developer</orgPath>
+      <orgName>index.html</orgName>
+    </file>
+    <file>
+      <guid>index.html</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco/Member</orgPath>
+      <orgName>index.html</orgName>
+    </file>
+    <file>
+      <guid>index.html</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco/Setting</orgPath>
+      <orgName>index.html</orgName>
+    </file>
+    <file>
+      <guid>index.html</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco/Users</orgPath>
+      <orgName>index.html</orgName>
+    </file>
+    <file>
+      <guid>aspose.ico</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco/Images</orgPath>
+      <orgName>aspose.ico</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>ExtendMenu</name>
+      <version>1.0</version>
+      <license url="sehengtao.net">License</license>
+      <url>shengtao.net</url>
+      <requirements>
+        <major>4</major>
+        <minor>5</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>zcs</name>
+      <website>shengtao.net</website>
+    </author>
+    <readme>
+      <![CDATA[    this is a plugins  <br>
+        
+        <p>this is a test page</p> 
+      
+      ]]>
+    </readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  <Actions>
+    <Action runat="install" alias="addApplicationTree" silent="false" initialize="true" sortOrder="2" applicationAlias="member" treeAlias="Member1" treeTitle="成员扩展1" iconOpened="folder_o.gif" iconClosed="folder.gif" assemblyName="PluginsUmbraco" treeHandlerType="Library.MemberExportToWordTree" action="" />
+    <Action runat="install" alias="addApplicationTree" silent="false" initialize="true" sortOrder="2" applicationAlias="users" treeAlias="users1" treeTitle="用户扩展1" iconOpened="folder_o.gif" iconClosed="folder.gif" assemblyName="PluginsUmbraco" treeHandlerType="Library.Trees" action="" /> 
+  </Actions>
+</umbPackage>

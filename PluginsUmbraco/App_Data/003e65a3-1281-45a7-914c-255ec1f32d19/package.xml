@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>LICENSE</guid>
+      <orgPath>/App_Plugins/Custom.Login.Page</orgPath>
+      <orgName>LICENSE</orgName>
+    </file>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/Custom.Login.Page</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>README.md</guid>
+      <orgPath>/App_Plugins/Custom.Login.Page</orgPath>
+      <orgName>README.md</orgName>
+    </file>
+    <file>
+      <guid>style.css</guid>
+      <orgPath>/App_Plugins/Custom.Login.Page/css</orgPath>
+      <orgName>style.css</orgName>
+    </file>
+    <file>
+      <guid>bg.jpg</guid>
+      <orgPath>/App_Plugins/Custom.Login.Page/img</orgPath>
+      <orgName>bg.jpg</orgName>
+    </file>
+    <file>
+      <guid>bg.png</guid>
+      <orgPath>/App_Plugins/Custom.Login.Page/img</orgPath>
+      <orgName>bg.png</orgName>
+    </file>
+    <file>
+      <guid>login.js</guid>
+      <orgPath>/App_Plugins/Custom.Login.Page/js</orgPath>
+      <orgName>login.js</orgName>
+    </file>
+    <file>
+      <guid>dcea785a-6a01-4b08-8d63-3581e5cf59dd_bg.jpg</guid>
+      <orgPath>/Media/1001</orgPath>
+      <orgName>bg.jpg</orgName>
+    </file>
+    <file>
+      <guid>bg_big-thumb.jpg</guid>
+      <orgPath>/Media/1001</orgPath>
+      <orgName>bg_big-thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>bg_thumb.jpg</guid>
+      <orgPath>/Media/1001</orgPath>
+      <orgName>bg_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>9ff012b6-713f-4123-acfe-433d44d084b2_bg.png</guid>
+      <orgPath>/Media/1002</orgPath>
+      <orgName>bg.png</orgName>
+    </file>
+    <file>
+      <guid>4133aba5-c2b9-4abd-8621-3789847f798e_bg_big-thumb.jpg</guid>
+      <orgPath>/Media/1002</orgPath>
+      <orgName>bg_big-thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>bg_big-thumb.png</guid>
+      <orgPath>/Media/1002</orgPath>
+      <orgName>bg_big-thumb.png</orgName>
+    </file>
+    <file>
+      <guid>fbc4c719-04ef-444a-9fa2-a8255494f98a_bg_thumb.jpg</guid>
+      <orgPath>/Media/1002</orgPath>
+      <orgName>bg_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>bg_thumb.png</guid>
+      <orgPath>/Media/1002</orgPath>
+      <orgName>bg_thumb.png</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Custom Login Page</name>
+      <version>1.5.1</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>https://github.com/ccasalicchio/UmbracoPackages/tree/master/Custom.Login.Page</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Carlos Casalicchio</name>
+      <website>http://www.ccasalicchio.com</website>
+    </author>
+    <readme><![CDATA[# Custom Login Page
+
+Plugin for Umbraco 7.4.3+
+
+This is a tweak for the login page, changing the visual of the layout. It adds a custom css and javascript injections into the Login page.
+
+It also adds a "loading" after clicking login, and it changes the background image for the screen.
+
+To customize it, you should open ~/App_Plugins/Custom.Login.Page/css/style.css and change the style to fit your needs.
+]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

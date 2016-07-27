@@ -1,0 +1,134 @@
+﻿body,font,div,span,p,ul,li,form,hr,h1,h2,h3,dl,dt,dd,object,button,img {margin:0; padding:0; font-weight:normal; border:none; list-style:none; font-family:'Arial';}
+body {background:#FFFFFF;}
+table {border-collapse:collapse; empty-cells:show;}
+.clear {clear:both; height:0px; overflow:hidden;}
+.wrapper {width:990px; margin:0 auto;}
+#cele_date {position:absolute;}
+
+.showpages {margin:10px 0 10px 0px; padding-bottom:5px; font-size:12px; clear:both; width:95%; float:left; text-align:right; display:inline; color:#525252;}
+.showpages a:link,.showpages a:visited {font-size:12px; text-align:center; padding:3px 6px; text-decoration:none; border:1px solid #DEDEDE; margin:0 5px 0 5px; background:url(showpages_bg.gif) repeat-x; line-height:25px; color:#525252; font-family:宋体;}
+.showpages a:hover {color:#CC0000;}
+.showpages .visited {color:#525252; cursor:default; padding:0 6px; font-weight:bold; font-size:12px;}
+.showpages .visited:hover {color:#525252; text-decoration:none;}
+.showpages a.disable:link,.showpages a.disable:visited,.showpages a.disable:hover {color:#DBE1E6; cursor:default;}
+.showpages input {border:1px solid #DEDEDE; vertical-align:middle; width:20px; margin:0 5px 0 5px;}
+
+i {font-style:normal; font-size:12px; color:#C60000; font-family:'宋体'; text-align:right;}
+.top {background:url(bg.gif) no-repeat; height:64px; width:auto; margin-left:30px; position:relative;}
+.top .right {right:15px; top:10px; position:absolute; font-size:12px;}
+.top .right a:link,.top .right a:visited {font-size:12px; color:#278EE4; margin-right:10px;}
+.top .right a:hover {color:#9C0F06;}
+
+.bottom {margin:0 auto; text-align:center; margin-top:10px; font-size:12px; line-height:24px;}
+.bottom img {vertical-align:middle; margin-left:10px;}
+
+.left {width:110px; margin:0 0 0 50px;}
+.lefttop {background:url(bg.gif) no-repeat 0 -70px; width:110px; height:43px;}
+.leftbottom {background-position:-110px -70px; float:left;}
+.left ul {background:url(left_menu_bg.jpg) repeat-y; width:110px; float:left;}
+.left li {background:url(left_menu_bg2.gif) no-repeat; width:110px; float:left; text-align:right; line-height:34px; margin-top:15px;}
+.left .li1 {margin-top:0;}
+.left li a:link,.left li a:visited {display:block; text-decoration:none; color:#CCCCCC; font-size:14px; letter-spacing:0px; font-weight:bold; width:95px; text-align:center; margin:0 auto; float:right;}
+.left li a:hover {color:#FFDF71;}
+.left li a.a1:link,.left li a.a1:visited {color:#FFDF71;}
+.left li a.a2:link,.left li a.a2:visited {font-size:12px; float:right; letter-spacing:0px; font-weight:normal; line-height:25px; padding:0 15px 0 10px; width:auto; display:none; clear:both; white-space:nowrap; margin:0 auto; text-align:right;}
+.left li a.a3:link,.left li a.a3:visited {background:url(icon_1.gif) no-repeat 0 8px;}
+
+.courselist .reportingflag0 a,.courselist .reportingflag1 {color:#CCCCCC; font-weight:bold;}
+.courselist .reportingflag0 a:link,.courselist .reportingflag0 a:visited,.courselist .reportingflag1 a:link,.courselist .reportingflag1 a:visited{color:#CCCCCC; font-weight:bold;}
+.courselist .reportingflag2 {color:#666666; font-weight:bold;}
+.courselist .reportingflag2 a:link,.courselist .reportingflag2 a:visited {color:#666666; font-weight:bold;}
+.courselist .reportingflag3,.courselist .reportingflag4,.courselist .reportingflag5,.courselist .reportingflag6,.courselist .reportingflag9 {color:#157109; font-weight:bold;}
+
+.content {margin:30px 0 0 30px; padding-right:50px;}
+.content h1 {font-size:14px; font-weight:bold; height:20px;}
+.content dl {font-size:12px; line-height:150%; clear:both; margin-top:20px;}
+.content dt {float:left; display:block; width:80px; font-weight:bold;}
+.content dd {word-break:break-all; word-wrap:break-word; display:block; margin-left:80px;}
+.content dd a:link,.content dd a:visited {color:#0066CC; line-height:30px; text-decoration:none;}
+.content dd a:hover {background:#06C; color:#FFF;}
+
+.coursedl {margin:10px 0 0 20px; padding-bottom:20px;}
+.coursedl em {font-size:14px; font-style:normal; color:#CC342A; letter-spacing:2px; font-weight:bold; background:url(bg.gif) no-repeat -530px -70px; width:74px; height:29px; display:block; text-align:center; line-height:23px; float:left; margin-right:20px;}
+.coursedl dd li {font-size:12px; margin-top:15px;}
+.coursedl dd li input {height:18px;}
+.coursedl dd li select {margin-right:10px;}
+.coursedl dd li span {color:#999999;}
+.coursedl .submit input {background:url(bg.gif) no-repeat -350px -70px; width:111px; height:30px; border:none; font-size:14px; font-weight:bold; cursor:pointer; margin:10px 0 0 300px;}
+.coursedl .submit .input2 {margin-left:40px;}
+.coursedl dd a:link,.coursedl dd a:visited {color:#0066CC;}
+.coursedl dd a:hover {color:#9C0F06;}
+
+.courselistdl dt {position:relative; height:40px;}
+.courselistdl dt span {margin-left:20px; display:block; font-size:14px;}
+.courselistdl dt span input {margin-left:10px;}
+.courselistdl dt div {text-align:right; height:40px; position:absolute; top:0; right:10px; margin-right:5px;}
+.courselistdl dt div .key {border:1px solid #E7E7E7; height:27px; line-height:28px; font-size:14px; width:246px; border-right:none; border-left:none; float:left; background:#FFFFFF;}
+.courselistdl dt div em {background:url(search_icon1.jpg); display:block; width:29px; height:31px; float:left;}
+.courselistdl dt div h3 {display:block; float:left; padding:0; margin:0; font-size:14px; font-weight:normal; line-height:40px;}
+.courselistdl dt .btn1 {background:url(btn1_bg.gif) repeat-x; height:31px; border:1px solid #E7E7E7; cursor:pointer; font-size:12px; font-weight:bold; letter-spacing:4px; line-height:29px; padding:0 5px;}
+.courselistdl dt .btn2 {background:url(bg.gif) no-repeat -350px -70px; width:111px; height:30px; border:none; font-size:14px; font-weight:bold; cursor:pointer; letter-spacing:3px;}
+.courselistdl .btn3 {background:url(bg.gif) no-repeat -280px -70px; width:62px; height:31px; border:none; font-size:14px; font-weight:bold; line-height:31px; cursor:pointer; font-family:'宋体';}
+.courselistdl .btn4 {margin:0;}
+
+.courselist {width:98%; border-collapse:collapse; empty-cells:show;}
+.courselist th {background:url(title3_bg.gif) repeat-x; height:39px; white-space:nowrap; position:relative; font-size:12px; line-height:41px; color:#323232; padding:0 0 0 10px; text-align: center;}
+.courselist th .em1 {position:absolute; left:0; top:0; background:url(bg.gif) no-repeat -620px -70px; width:10px; height:39px;}
+.courselist th .em2 {left:auto; right:0; background-position:-630px -70px;}
+.courselist td {text-align:center; font-size:12px; line-height:30px; height:30px; border-bottom:1px dashed #CCCCCC; color:#666666; white-space:nowrap;}
+.courselist .td2 {background:#FFF5F5;}
+.courselist td a:link,.courselist td a:visited {color:#278EE4; text-decoration:none; margin:0 8px;}
+.courselist td a:hover {text-decoration:underline;}
+
+.reviewbtn {border:none; background:none; color:#278EE4; cursor:pointer;}
+.expertreviewtable td {vertical-align:top;}
+.expertreviewth font {display:block; padding:0; margin:0; text-align:center; width:100%; font-size:12px; font-weight:bold; line-height:16px;}
+.expertreviewth b {padding:0; margin:0; line-height:14px;}
+.expertreviewth em {font-weight:normal; line-height:14px;}
+.expertreview li {text-align:left; font-size:12px;}
+.expertreview b {font-weight:normal; width:60px; display:block; float:left; text-align:right;}
+.expertreview em {font-style:normal; display:block; float:left; width:70px; text-align:center;}
+
+.award {background:url(award.jpg) no-repeat; width:685px; height:475px; position:relative;}
+.award .award_coursename {font-size:20px; color:#000; font-weight:bold; position:absolute; top:190px; left:217px; display:block; width:300px; text-align:center;}
+.award .award_awards {position:absolute; left:488px; top:270px; font-size:20px; width:100px; display:block; text-align:center; font-weight:bold; color:#000;}
+
+.btn_1 {background:url(bg.gif) no-repeat -350px -70px; width:111px; height:30px; border:none; cursor:pointer; margin:10px 0 0 10px;}
+.btn_1:hover {color:#F30;}
+
+.content .notice {width:582px; background:url(notice_bg.jpg) no-repeat #FFF; border:1px solid #CECECE; line-height:150%; font-size:12px; padding:5px 10px 5px 60px; margin-bottom:20px; text-indent:2em;}
+
+
+.courselist .tdleft {text-align:left; padding-left:10px;}
+
+.coursedl .submit .input3 {background:url(bg.gif) no-repeat -250px -200px; text-align:center; width:150px; height:30px; border:none; font-size:14px; font-weight:bold; cursor:pointer; margin:10px 0 10px 100px;}
+
+.hotelchecklist {border:1px solid #CCC; border-right:none; border-bottom:none; width:750px;}
+.hotelchecklist th,.hotelchecklist td {font-size:12px; border:1px solid #CCC; border-left:none; border-top:none; padding:5px;}
+.hotelchecklist a:link,.hotelchecklist a:visited {margin:0 5px; color:#039;}
+.hotelcheckcontent {margin:20px 0 0 0; line-height:200%; font-size:12px; width:750px;}
+.hotelcheckcontent i {font-size:20px; font-family:'微软雅黑';}
+
+.hoteldl dd li select {vertical-align:middle;}
+.hoteldl dd li input { vertical-align:middle; height:auto;}
+.hoteldl dd li .hotel_btn1 {background:url(bg.gif) no-repeat -560px -101px; width:52px; height:22px; border:1px solid #CCC; padding:1px; cursor:pointer; vertical-align:middle;}
+
+.orderhoteltable {margin:20px 0 0 20px; width:900px;}
+#roomcount {color:#C00;}
+
+/*分页*/
+.cutpage{font-size:12px; font-family:Tahoma;  float: right;  margin-top: 10px; *margin-top:20px; _margin-top:20px;}
+.cutpage a{display:inline-block;  height:24px; padding-left:8px; padding-right:8px; line-height:24px; text-decoration:none; margin:5px 5px 5px 0; vertical-align:middle; border:1px solid #ddd ;*margin-top:-5px; *padding-right:-8px;}
+.cutpage a span{ padding-left: 5px; padding-right:8px; display:inline-block; cursor:pointer; height:24px; line-height:24px; border:none;}
+.cutpage a.current{ background-color:#509200;}
+.cutpage a.current span{ background-color:#509200; }
+.cutpage a:link,.cutpage a:visited{color:#333; text-decoration:none}
+.cutpage a.current:hover{color:#fff;}
+.cutpage a.current:link,.cutpage a.current:visited{color:#fff;}
+.selct_txt {
+    border: 1px solid #DDDDDD;
+    height: 21px;
+    margin: 0 3px;
+    width: 30px;
+	*margin-top:10px;
+}

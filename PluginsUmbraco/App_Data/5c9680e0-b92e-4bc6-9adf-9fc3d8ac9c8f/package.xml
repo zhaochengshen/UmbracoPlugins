@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>FileManage.ascx</guid>
+      <orgPath>/App_Plugins/FileManage</orgPath>
+      <orgName>FileManage.ascx</orgName>
+    </file>
+    <file>
+      <guid>file.png</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>file.png</orgName>
+    </file>
+    <file>
+      <guid>folder.png</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>folder.png</orgName>
+    </file>
+    <file>
+      <guid>FileManage.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>FileManage.dll</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>FileManage</name>
+      <version>1.1</version>
+      <license url="">MIT License</license>
+      <url></url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>zcs</name>
+      <website>http://www.shengtao.net</website>
+    </author>
+    <readme><![CDATA[https://github.com/jt3432/dtp.umb.apppoolrefresh]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  <Actions /> 
+</umbPackage>

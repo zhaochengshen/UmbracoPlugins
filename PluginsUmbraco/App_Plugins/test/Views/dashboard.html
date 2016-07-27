@@ -1,0 +1,20 @@
+﻿<div ng-controller="test.Controller" class="app-pool-refresh-container">
+    <h1>this is a table list</h1>
+    <form ng-controller="test.Controller">
+        <table>
+            <tr ng-repeat="x in names">
+                <td ng-if="$odd" style="background-color:#f1f1f1">{{ x.Name }}</td>
+                <td ng-if="$even">{{ x.Name }}</td>
+                <td ng-if="$odd" style="background-color:#f1f1f1">{{ x.Country }}</td>
+                <td ng-if="$even">{{ x.Country }}</td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script>
+    angular.module('umbraco').controller('test.Controller', function ($scope, $http) {
+        $http.get('backoffice/User/Userapi/GetUserList')
+        .success(function (response) { $scope.names = response.records; });
+    });
+</script>

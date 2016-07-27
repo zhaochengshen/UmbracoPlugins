@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>FileManage.aspx</guid>
+      <orgPath>/App_Plugins/FileManage</orgPath>
+      <orgName>FileManage.aspx</orgName>
+    </file>
+    <file>
+      <guid>FileManageDoc.aspx</guid>
+      <orgPath>/App_Plugins/FileManage</orgPath>
+      <orgName>FileManageDoc.aspx</orgName>
+    </file> 
+    <file>
+      <guid>FilesUserControl.ascx</guid>
+      <orgPath>/App_Plugins/FileManage</orgPath>
+      <orgName>FilesUserControl.ascx</orgName>
+    </file> 
+    <file>
+      <guid>FilesHandler.ashx</guid>
+      <orgPath>/App_Plugins/FileManage</orgPath>
+      <orgName>FilesHandler.ashx</orgName>
+    </file>
+    <file>
+      <guid>file.png</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>file.png</orgName>
+    </file>
+    <file>
+      <guid>folder.png</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>folder.png</orgName>
+    </file>
+    <file>
+      <guid>folder.ico</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>folder.ico</orgName>
+    </file>
+    <file>
+      <guid>home.gif</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>home.gif</orgName>
+    </file>
+    <file>
+      <guid>separato.gif</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>separato.gif</orgName>
+    </file>
+    <file>
+      <guid>separatp.gif</guid>
+      <orgPath>/App_Plugins/FileManage/images</orgPath>
+      <orgName>separatp.gif</orgName>
+    </file>
+    <file>
+      <guid>main.css</guid>
+      <orgPath>/App_Plugins/FileManage/CSS</orgPath>
+      <orgName>main.css</orgName>
+    </file>
+    <file>
+      <guid>xbreadcrumbs.css</guid>
+      <orgPath>/App_Plugins/FileManage/CSS</orgPath>
+      <orgName>xbreadcrumbs.css</orgName>
+    </file> 
+    <file>
+      <guid>jquery-1.8.2.min.js</guid>
+      <orgPath>/App_Plugins/FileManage/Scripts</orgPath>
+      <orgName>jquery-1.8.2.min.js</orgName>
+    </file>
+    <file>
+      <guid>jquery-1.8.2.intellisense.js</guid>
+      <orgPath>/App_Plugins/FileManage/Scripts</orgPath>
+      <orgName>jquery-1.8.2.intellisense.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.form.js</guid>
+      <orgPath>/App_Plugins/FileManage/Scripts</orgPath>
+      <orgName>jquery.form.js</orgName>
+    </file>
+    <file>
+      <guid>json2.js</guid>
+      <orgPath>/App_Plugins/FileManage/Scripts</orgPath>
+      <orgName>json2.js</orgName>
+    </file>
+    <file>
+      <guid>main.js</guid>
+      <orgPath>/App_Plugins/FileManage/Scripts</orgPath>
+      <orgName>main.js</orgName>
+    </file>
+    <file>
+      <guid>xbreadcrumbs.js</guid>
+      <orgPath>/App_Plugins/FileManage/Scripts</orgPath>
+      <orgName>xbreadcrumbs.js</orgName>
+    </file> 
+    <file>
+      <guid>FileManage.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>FileManage.dll</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>FileManage</name>
+      <version>1.0</version>
+      <license url="https://www.shengtao.net">FileMange</license>
+      <url>https://www.shengtao.net</url>
+      <requirements>
+        <major>4</major>
+        <minor>5</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>FileManage</name>
+      <website>http://www.aspose.com/</website>
+    </author>
+    <readme>
+      <![CDATA[  FileManage 1.1.0
+      
+      ]]>
+    </readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

@@ -1,0 +1,6 @@
+﻿{
+	javascript: [
+		'~/App_Plugins/test/ngControllers/test.controller.js',
+		'~/App_Plugins/test/test.resource.js'
+	]
+}

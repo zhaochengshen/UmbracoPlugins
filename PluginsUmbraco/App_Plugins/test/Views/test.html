@@ -1,0 +1,29 @@
+﻿<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>-->
+<div ng-controller="test.Controller">
+    <h1>list</h1>
+    <table>
+        <tr ng-repeat="x in names">
+            <td ng-if="$odd" style="background-color:#f1f1f1">{{ x.Name }}</td>
+            <td ng-if="$even">{{ x.Name }}</td>
+            <td ng-if="$odd" style="background-color:#f1f1f1">{{ x.Country }}</td>
+            <td ng-if="$even">{{ x.Country }}</td>
+        </tr>
+    </table>
+</div>
+
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script>
+    //var app = angular.module('myApp', []);
+    angular.module("umbraco").app.controller('test.Controller', function ($scope, $http) {
+        $http.get("http://www.runoob.com/try/angularjs/data/Customers_JSON.php")
+        .success(function (response) { $scope.names = response.records; });
+    });
+</script>
+<!--</body>
+</html>-->

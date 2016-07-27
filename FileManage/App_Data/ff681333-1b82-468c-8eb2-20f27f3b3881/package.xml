@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>PluginsUmbraco.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>PluginsUmbraco.dll</orgName>
+    </file>
+    <file>
+      <guid>index.html</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco</orgPath>
+      <orgName>index.html</orgName>
+    </file> 
+    <file>
+      <guid>aspose.ico</guid>
+      <orgPath>/App_Plugins/PluginsUmbraco/Images</orgPath>
+      <orgName>aspose.ico</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>ExtendMenu</name>
+      <version>1.0</version>
+      <license url="sehengtao.net">License</license>
+      <url>shengtao.net</url>
+      <requirements>
+        <major>4</major>
+        <minor>5</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>zcs</name>
+      <website>shengtao.net</website>
+    </author>
+    <readme>
+      <![CDATA[  this is a test
+      
+      ]]>
+    </readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  <Actions />  
+</umbPackage>
