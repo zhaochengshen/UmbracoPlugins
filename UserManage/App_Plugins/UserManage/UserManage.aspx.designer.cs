@@ -10,7 +10,7 @@
 namespace UserManage.App_Plugins.UserManage {
     
     
-    public partial class UserTypeManage {
+    public partial class UserManage {
         
         /// <summary>
         /// UmbracoPanel 控件。
@@ -31,12 +31,12 @@ namespace UserManage.App_Plugins.UserManage {
         protected global::System.Web.UI.WebControls.PlaceHolder MemberExportPlaceHolder;
         
         /// <summary>
-        /// UserTypeControl 控件。
+        /// UserControl 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::UserManage.App_Plugins.UserManage.UserTypeControl UserTypeControl;
+        protected global::UserManage.App_Plugins.UserManage.UserControl UserControl;
     }
 }

@@ -18,8 +18,8 @@ namespace UserManage.Tree
             rootNode.Action = "javascript:CreateUser()";
             rootNode.Menu.Clear();
             rootNode.Menu.Add(ActionRefresh.Instance);
-            rootNode.Icon = "/App_Plugins/FileManage/Images/folder.ico";
-            rootNode.OpenIcon = "/App_Plugins/FileManage/Images/folder.ico";
+            rootNode.Icon = "/App_Plugins/UserManage/Images/folder.ico";
+            rootNode.OpenIcon = "/App_Plugins/UserManage/Images/folder.ico";
 
         }
         public override void Render(ref XmlTree tree)
@@ -29,7 +29,7 @@ namespace UserManage.Tree
         public override void RenderJS(ref System.Text.StringBuilder Javascript)
         {
             Javascript.Append(@"function CreateUser(){
-                    UmbClientMgr.contentFrame('../App_Plugins/UserManage/User.aspx');
+                    UmbClientMgr.contentFrame('../App_Plugins/UserManage/UserManage.aspx');
             }");
         }
 

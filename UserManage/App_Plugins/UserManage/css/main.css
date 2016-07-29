@@ -1,0 +1,98 @@
+﻿table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    table.gridtable th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+    }
+
+    table.gridtable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+    }
+
+table.editTable {
+    font-family: verdana,arial,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    width: 350px;
+}
+
+    table.editTable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+    }
+
+        table.editTable td label {
+            display: block;
+        }
+
+.Error {
+    font-size: 6px;
+    color: red;
+}
+
+
+#bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*弹出窗口后，添加遮罩层，采用此CSS，将该层置于弹出DIV和页面层之间
+     z-index控制Z轴的坐标，数值越大，离用户越近 rgba(72, 74, 68, 0.46)
+    */
+    z-index: 50;
+    background-color: #c3c1b3;
+    -moz-opacity: 0.7;
+    opacity: .70;
+    filter: alpha(opacity = 70);
+}
+
+#div_AddUserType {
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    z-index: 1000;
+}
+
+#div_Permission {
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    z-index: 1000;
+}
+
+
+#div_AddUser {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    z-index: 1000;
+}
+
+#div_UpdateUser {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    z-index: 1000;
+}
