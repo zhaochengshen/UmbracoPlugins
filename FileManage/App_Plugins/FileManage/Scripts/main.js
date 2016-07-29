@@ -161,7 +161,8 @@ function showDiv(div_id) {
         left: windowWidth / 2 - popupWidth / 2,
         top: windowHeight / 2 - popupHeight / 2,
         opacity: "show"
-    }, "fast");
+    }, "fast"); 
+    $("#" + div_id + " input:first").focus();
 }
 function hideDiv(div_id) {
     $("#bg").remove();
