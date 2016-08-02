@@ -316,6 +316,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Plugins\UserManage\ApplicationConfig.cs" />
     <Compile Include="App_Plugins\UserManage\test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

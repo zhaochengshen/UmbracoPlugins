@@ -1,5 +1,14 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UserControl.ascx.cs" Inherits="UserManage.App_Plugins.UserManage.UserControl" %>
 
+<script src="Script/jquery-1.8.2.intellisense.js"></script>
+<script src="Script/jquery-1.8.2.min.js"></script>
+<script src="Script/jquery.form.js"></script>
+<script src="Script/json2.js"></script>
+<script src="Script/users.js"></script>
+<link href="css/main.css" rel="stylesheet" />
+
+
+
 <div>
     <div style="background-color: #808080">
         <input id="btnAddUser" type="button" value="添加用户" />
@@ -41,12 +50,6 @@
                     <td>用户类别：</td>
                     <td>
                         <select id="add_txtUserType" name="add_txtUserType">
-                            <option value="1">Administrators</option>
-                            <option value="2">Writer</option>
-                            <option value="3">Editor</option>
-                            <option value="4">Translator</option>
-                            <option value="5">AA</option>
-                            <option value="6">Test</option>
                         </select>
 
                     </td>
@@ -103,7 +106,7 @@
                 <tr>
                     <td>密码：</td>
                     <td>
-                        <input id="update_txtUserPassword" name="update_txtUserPassword" type="password" /><span id="update_txtUserPasswordMsg" class="Error"></span>
+                        <input id="update_txtUserPassword" name="update_txtUserPassword" type="password" />
 
                     </td>
                 </tr>
@@ -118,12 +121,6 @@
                     <td>用户类别：</td>
                     <td>
                         <select id="update_txtUserType" name="update_txtUserType">
-                            <option value="1">Administrators</option>
-                            <option value="2">Writer</option>
-                            <option value="3">Editor</option>
-                            <option value="4">Translator</option>
-                            <option value="5">AA</option>
-                            <option value="6">Test</option>
                         </select>
 
                     </td>
@@ -144,25 +141,7 @@
                 </tr>
                 <tr>
                     <td>区域：</td>
-                    <td id="update_Area">
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="content" />内容</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="media" />媒体</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="settings" />设置</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="developer" />开发</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="users" />用户</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="member" />会员</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="forms" />forms</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="translation" />翻译</label>
-                        <label>
-                            <input name="update_cbarea" type="checkbox" value="UserManage" />UserMange</label>
+                    <td id="update_Area"> 
                     </td>
                 </tr>
                 <tr>
@@ -179,11 +158,3 @@
 </div>
 
 
-
-
-<script src="Script/jquery-1.8.2.intellisense.js"></script>
-<script src="Script/jquery-1.8.2.min.js"></script>
-<script src="Script/jquery.form.js"></script>
-<script src="Script/json2.js"></script>
-<script src="Script/users.js"></script>
-<link href="css/main.css" rel="stylesheet" />

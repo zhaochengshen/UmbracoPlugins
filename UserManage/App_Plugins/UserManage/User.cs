@@ -76,5 +76,12 @@ namespace UserManage.App_Plugins.UserManage
         ///// 最后一次登录时间
         ///// </summary>
         //public DateTime LastLoginDate { get; set; }
+
+        public List<User2App> Permission { get; set; }
+    }
+
+    public class User2App
+    {
+        public string App { get; set; }
     }
 }

@@ -9,9 +9,17 @@
         $("#add_txtUserLogin").val("");
         $("#add_txtUserPassword").val("");
         $("#add_txtUserEmail").val("");
-        $("#add_txtUserType").val(""); 
+        $("#add_txtUserType").val("");
         $("#add_cbDisabled").attr("checked", true);
         $("#add_cbNoConsole").attr("checked", false);
+        if ($("#div_AddUser").is(":hidden")) {
+            $.getJSON("UserTypeHandler.ashx?type=1", function (data) {
+                $("#add_txtUserType").html("");
+                for (var i = 0; i < data.length; i++) {
+                    $("#add_txtUserType").append("<option value='" + data[i].ID + "'>" + data[i].UserTypeName + "</option>");
+                }
+            });
+        }
         toggle("div_AddUser");
     });
 
@@ -57,8 +65,7 @@
         hideDiv("div_UpdateUser");
     });
 
-    ////获取用户类型
-    //GetUserType();
+
 
 
 
@@ -120,17 +127,47 @@ function openUpdateUser(id) {
     $("#lblUserID").html(id);
     $("input:checkbox[name='update_cbarea']").attr("checked", false);
 
+    $.ajaxSettings.async = false;
+    $.getJSON("UserTypeHandler.ashx?type=1", function (data) {
+        $("#update_txtUserType").html("");
+        for (var i = 0; i < data.length; i++) {
+            $("#update_txtUserType").append("<option value='" + data[i].ID + "'>" + data[i].UserTypeName + "</option>");
+        }
+    });
+
+    $.getJSON("UserHandler.ashx?type=6", function (data) {
+        $("#update_Area").html("");
+        for (var i = 0; i < data.length; i++) {
+            $("#update_Area").append('<label><input name="update_cbarea" type="checkbox" value="' + data[i].Alias + '" />' + data[i].Name + '</label>');
+        }
+    });
+
     $.getJSON("UserHandler.ashx?type=4&UserID=" + id, function (data) {
+
+        console.log(data[0].Permission);
+        var object = eval(data);
+
+        for (var i = 0; i < data.length; i++) {
+            var app = data[0].Permission; 
+            $.each(app, function (i) { 
+                $("input[name='update_cbarea'][value='" + app[i].App + "']").attr("checked", true);
+            });
+        }
+
+
+
+
+
         $("#update_txtUserName").val(data[0].UserName);
         $("#update_txtUserLogin").val(data[0].UserLogin);
-        $("#update_txtUserPassword").val(data[0].UserPassword);
+        $("#update_txtUserPassword").val("");
         $("#update_txtUserEmail").val(data[0].UserEmail);
         $("#update_txtUserType").val(data[0].UserType);
 
         $("#update_cbDisabled").attr("checked", data[0].UserDisabled);
         $("#update_cbNoConsole").attr("checked", data[0].UserNoConsole);
-
     });
+    $.ajaxSettings.async = true;
 
     showDiv("div_UpdateUser");
 
@@ -147,8 +184,6 @@ function UpdateUser() {
     else { update_txtUserNameMsg.innerHTML = ""; }
     if (userLogin === "") { update_txtUserLoginMsg.innerHTML = "不能为空"; return; }
     else { update_txtUserLoginMsg.innerHTML = ""; }
-    if (userPassword === "") { update_txtUserPasswordMsg.innerHTML = "不能为空"; return; }
-    else { update_txtUserPasswordMsg.innerHTML = ""; }
     if (userEmail === "") { update_txtUserEmailMsg.innerHTML = "不能为空"; return; }
     else { update_txtUserEmailMsg.innerHTML = ""; }
 
